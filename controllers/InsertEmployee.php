@@ -12,5 +12,4 @@
 
 $sql = 'insert into users SET username=:name, gender=:gender, email=:email, position=:position, address=:address,birth=:birth';
 $status = $pdo->prepare($sql)->execute($row);
-
 header("Location: http://employee.local/index.php", true, 301);
