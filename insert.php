@@ -33,7 +33,7 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Birth</label>
-                     <input class="form-control" type="date" name="birth">
+                     <input class="form-control" type="date" name="birth" required>
                   </div>
 
 
@@ -51,7 +51,7 @@
                           <label class="form-check-label">Fale</label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="gender" value="other" checked="">
+                          <input class="form-check-input" type="radio" name="gender" value="other" checked="" >
                           <label class="form-check-label">Other</label>
                         </div>
                       </div>
@@ -60,14 +60,14 @@
                    <div class="col-sm-12">
                     <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Enter email">
+                    <input type="email" class="form-control" id="exampleInputEmail1" name="email" placeholder="Enter email" required>
                   </div>
                   </div>
 
                    <div class="col-sm-12">
                     <div class="form-group">
                     <label for="exampleInputEmail1">Position</label>
-                    <input type="text" class="form-control" name="position" id="exampleInputEmail1" placeholder="Enter position">
+                    <input type="text" class="form-control" name="position" id="exampleInputEmail1" placeholder="Enter position" required>
                   </div>
                   </div>
 
