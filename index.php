@@ -16,7 +16,6 @@
           <div class="col-sm-6">
             <h1 class="m-0 text-dark">Nhân Viên</h1>
           </div><!-- /.col -->
-          
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
@@ -61,7 +60,7 @@
                     <tr>
                       <td><?php echo $row['id']?></td>
                       <td><?php echo $row['username']?></td>
-                       <td><?php echo $row['birth']?></td>
+                      <td><?php echo $row['birth']?></td>
                       <td><?php echo $row['gender']?></td>
                       <td><?php echo $row['email']?></td>
                       <td><?php echo $row['position']?></td>
@@ -82,4 +81,5 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+  
   <?php  include('../Admin/components/footer.php'); ?>

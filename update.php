@@ -2,6 +2,7 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
+  
  <?php 
   include('../Admin/db/conection.php');
   $id = $_GET['id'];
@@ -41,10 +42,7 @@
                   <div class="form-group">
                     <label for="exampleInputPassword1">Birth</label>
                      <input class="form-control" name="birth" value="<?php echo $employee['birth']?> " type="date" name="birth">
-                  </div>
-
-
-                                  
+                  </div>                                  
                  <div class="col-sm-12">
                       <!-- radio -->
                       <div class="form-group">
@@ -63,7 +61,6 @@
                         </div>
                       </div>
                     </div>
-
                    <div class="col-sm-12">
                     <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
